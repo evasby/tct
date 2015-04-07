@@ -1,0 +1,46 @@
+.action{
+  padding: 50px 30px 30px 30px;
+  background-color: #ffffff;
+  margin: 0px 64px 25px 0px;
+  &_top{
+    overflow: hidden;
+  }
+  &_bottom{
+    padding-top: 25px;
+    p{
+      font-size: 14px;
+    }
+  }
+  &_left{
+    float: left;
+  }
+  &_image{
+    width: 292px;
+    height: 128px
+  }
+  &_right{
+    float: left;
+    margin-left: 15px;
+  }
+  &_title{
+    height: 57px;
+    font-size: 16px;
+    font-family: "bicubikregular";
+    font-weight: bold;
+    h1{
+      font-size: 13px;
+      font-family: "bicubikregular";
+      font-weight: bold;
+    }
+  }
+  &_descr{
+    color: #054b71;
+    font-size: 12px;
+    font-family: "bicubikregular";
+    font-weight: bold;
+    height: 25px;
+  }
+  &_date{
+    font-size: 14px;
+  }
+}

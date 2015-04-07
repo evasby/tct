@@ -52,14 +52,14 @@ module.exports = function(grunt) {
         ftp_upload: {
             build: {
                 auth: {
-                    host: 'webformat.by',
+                    host: 'by122.atservers.net',
                     port: 21,
                     authKey: 'key1'
                 },
                 //src: ['css/all.css', 'css/all-old-ie.css', 'css/all.css.map', 'css/all-old-ie.css.map'],
-                src: ['css/all.css', 'css/all-old-ie.css'],
+                src: ['css/all.css'],
                 //dest: 'www/slav.webformat.by/sites/all/themes/slav/css',
-                dest: 'www/esteticd.webformat.by/sites/all/themes/estetic/css',
+                dest: 'www/tct.by/sites/all/themes/zen/bus/css',
                 exclusions: ['css/**/.DS_Store', 'css/**/Thumbs.db', 'dist/tmp']
             }
         },

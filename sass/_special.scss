@@ -1,0 +1,41 @@
+.special{
+  margin: 0px auto;
+  padding-top: 110px;
+  max-width: 1275px;
+  position: relative;
+  overflow: hidden;
+  &_item{
+    float: left;
+    width: 595px;
+    height: 132px;
+    margin: 0px 20px 20px 0px;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  &_logo{
+    left: 0;
+    position: absolute;
+    top: 70px;
+  }
+  &_image{
+    width: 200px;
+    height: 88px;
+    float: left;
+    margin: 20px 0px 0px 20px;
+  }
+  &_text{
+    float: left;
+    margin: 20px 0px 0px 20px;
+  }
+  &_title{
+    font-size: 18px;
+    height: 40px;
+  }
+  &_descr{
+    height: 34px;
+  }
+  &_link{
+    @include def-link-colors(#264a73, #8ed3f9, #264a73, #264a73, #264a73);
+    text-decoration: none;
+  }
+}

@@ -14,4 +14,13 @@
 //}
 //**********************************************************/
 //**********************************************************/
-//@import "inner";
+body.page-special, body.node-type-actions{
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/bac_news.jpg");
+}
+@import "special";
+@import "timeless";
+@import "action";
