@@ -1,0 +1,36 @@
+.pager{
+	position:relative;
+	padding-top: 30px;
+	li{
+		font-family:'bicubikregular';
+		font-size:13px;
+		font-weight:bold;
+		color:#4a4a4a;
+	}
+	a{
+		@include link(#a4a4a4, #4a4a4a);
+		text-decoration:none;
+	}
+	.pager-previous a, .content_inner_news .pager-next a{
+		font-weight:normal;
+		font-size:30px;
+	}
+	.pager-previous{
+		position:absolute;
+		top:25px;
+		left:41%;
+	}
+	.pager-next{
+		font-size: 22px;
+		position:absolute;
+		top:25px;
+		right:41%;
+	}
+	.pager-item, .pager-first, .pager-previous, .pager-next, .pager-last, .pager-ellipsis, .pager-current {
+		padding-left:10px;
+		padding-right:10px;
+	}
+	.pager-current{
+		
+	}
+}	

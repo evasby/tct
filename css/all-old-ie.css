@@ -202,4 +202,98 @@ body.page-special, body.node-type-actions {
   line-height: 1.7;
 }
 
+.newcatalog {
+  position: relative;
+  overflow: hidden;
+  margin: 0px auto;
+  max-width: 1000px;
+  padding: 55px 0px 0px 0px;
+  background-color: #ffffff;
+}
+.newcatalog_logo {
+  margin: 0px 0px 25px 0px;
+}
+.newcatalog_title {
+  text-align: center;
+  width: 180px;
+  margin: 0 auto 32px auto;
+  font-size: 17px;
+  font-family: 'bicubikregular';
+  font-weight: normal;
+  border-bottom: 1px solid #000000;
+  padding: 0px 0px 5px 0px;
+}
+.newcatalog_list {
+  overflow: hidden;
+  padding: 0px 0px 0px 35px;
+}
+.newcatalog_item {
+  width: 302px;
+  height: 400px;
+  float: left;
+  margin: 0px 13px 13px 0px;
+  background-color: #ccc;
+}
+.newcatalog_wrap {
+  height: 315px;
+}
+.newcatalog_image {
+  width: 302px;
+  height: 225px;
+}
+.newcatalog_link1 {
+  float: left;
+  width: 50%;
+}
+.newcatalog_link2 {
+  float: left;
+  width: 50%;
+}
+
+.pager {
+  position: relative;
+  padding-top: 30px;
+}
+.pager li {
+  font-family: 'bicubikregular';
+  font-size: 13px;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+.pager a {
+  color: #a4a4a4;
+  text-decoration: none;
+}
+.pager a:visited {
+  color: #a4a4a4;
+}
+.pager a:hover {
+  color: #4a4a4a;
+}
+.pager a:active {
+  color: #a4a4a4;
+}
+.pager a:focus {
+  color: #a4a4a4;
+}
+.pager .pager-previous a, .pager .content_inner_news .pager-next a {
+  font-weight: normal;
+  font-size: 30px;
+}
+.pager .pager-previous {
+  position: absolute;
+  top: 25px;
+  left: 41%;
+}
+.pager .pager-next {
+  font-size: 22px;
+  position: absolute;
+  top: 25px;
+  right: 41%;
+}
+.pager .pager-item, .pager .pager-first, .pager .pager-previous, .pager .pager-next, .pager .pager-last, .pager .pager-ellipsis, .pager .pager-current {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 /*# sourceMappingURL=all-old-ie.css.map */

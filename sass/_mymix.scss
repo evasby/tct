@@ -105,6 +105,14 @@
     &:focus{color:$focus;}; 
 }
 //*********************************************************************************/
+@mixin link($normal, $hover){
+  color:$normal;
+    &:visited{color:$normal;};
+    &:hover{color:$hover;};
+    &:active{color:$normal;}; 
+    &:focus{color:$normal;}; 
+}
+//*********************************************************************************/
 @mixin def-opacity($value){
   -webkit-opacity:$value;
   -moz-opacity:$value;

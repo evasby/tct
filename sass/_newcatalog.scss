@@ -1,0 +1,47 @@
+.newcatalog{
+	position: relative;
+	overflow: hidden;
+	margin: 0px auto;
+  max-width: 1000px;
+  padding: 55px 0px 0px 0px;
+  background-color: #ffffff;
+  &_logo{
+		margin: 0px 0px 25px 0px;
+  }
+	&_title{
+		text-align: center;
+		width: 180px;
+		margin: 0 auto 32px auto;
+		font-size: 17px;
+    font-family: 'bicubikregular';
+    font-weight: normal;
+    border-bottom: 1px solid #000000;
+    padding: 0px 0px 5px 0px;
+	}
+	&_list{
+		overflow: hidden;
+		padding: 0px 0px 0px 35px;
+	}
+	&_item{
+		width: 302px;
+		height: 400px;
+		float: left;
+		margin: 0px 13px 13px 0px;
+		background-color: #ccc;
+	}
+	&_wrap{
+		height: 315px;
+	}
+	&_image{
+		width: 302px;
+		height: 225px;
+	}
+	&_link1{
+		float: left;
+		width: 50%;
+	}
+	&_link2{
+		float: left;
+		width: 50%
+	}
+}
