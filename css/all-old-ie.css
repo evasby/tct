@@ -178,4 +178,28 @@ body.page-special, body.node-type-actions {
   font-size: 14px;
 }
 
+.fronttext {
+  overflow: hidden;
+}
+.fronttext_text {
+  width: 580px;
+  float: left;
+  padding: 0px 50px 20px 0px;
+}
+.fronttext_text h1 {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: 'bicubikregular';
+  width: 450px;
+  border-bottom: 1px solid #ffffff;
+  padding: 0px 0px 5px 0px;
+  margin-bottom: 10px;
+}
+.fronttext_text p {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'bicubikregular';
+  line-height: 1.7;
+}
+
 /*# sourceMappingURL=all-old-ie.css.map */

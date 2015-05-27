@@ -1,0 +1,23 @@
+.fronttext{
+  overflow: hidden;
+  &_text{
+    width: 580px;
+    float: left;
+    padding: 0px 50px 20px 0px;
+    h1{
+      color: #ffffff;
+      font-size: 17px;
+      font-family: 'bicubikregular';
+      width: 450px;
+      border-bottom: 1px solid #ffffff;
+      padding: 0px 0px 5px 0px;
+      margin-bottom: 10px;
+    }
+    p{
+      color: #ffffff;
+      font-size: 12px;
+      font-family: 'bicubikregular';
+      line-height: 1.7;
+    }
+  }
+}

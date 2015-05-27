@@ -36,7 +36,8 @@ module.exports = function(grunt) {
         sass: {
             dist: {
                 options: {
-                    style: 'expanded'
+                    style: 'expanded',
+                    noCache: true
                 },
                 files: {
                     'css/all.css': 'sass/all.scss',
@@ -104,6 +105,6 @@ module.exports = function(grunt) {
 
     // 4. Указываем, какие задачи выполняются, когда мы вводим «grunt» в терминале
     //grunt.registerTask('default', ['concat', 'uglify', 'imagemin', 'sass', 'watch']);
-    grunt.registerTask('default', ['sass', 'watch']);
+    grunt.registerTask('default', ['sass', 'ftp_upload', 'watch']);
 
 };
