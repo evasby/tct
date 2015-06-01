@@ -11,19 +11,18 @@
 		@include link(#a4a4a4, #4a4a4a);
 		text-decoration:none;
 	}
-	.pager-previous a, .content_inner_news .pager-next a{
+	.pager-previous a, .pager-next a{
 		font-weight:normal;
-		font-size:30px;
+		font-size:22px;
 	}
 	.pager-previous{
 		position:absolute;
-		top:25px;
+		top:23px;
 		left:41%;
 	}
 	.pager-next{
-		font-size: 22px;
 		position:absolute;
-		top:25px;
+		top:23px;
 		right:41%;
 	}
 	.pager-item, .pager-first, .pager-previous, .pager-next, .pager-last, .pager-ellipsis, .pager-current {
