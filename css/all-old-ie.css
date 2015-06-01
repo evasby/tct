@@ -335,6 +335,101 @@ body.page-special, body.node-type-actions {
   left: 75px;
   font-size: 20px;
 }
+.newcatalog .popup-element {
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  right: 0px;
+}
+
+.popup-style-white .popup-element-body.origin-bottom-right.expand-bottom-right table.popup-layout {
+  left: -20px;
+  top: -91px;
+}
+
+#popup-active-overlay .inner {
+  height: 370px;
+}
+
+.popup-style-white .popup-element-body .top .left {
+  background: url("../images/top-left.png") no-repeat scroll 0 0;
+  height: 55px;
+  padding-left: 55px;
+  width: 55px;
+}
+
+.popup-style-white .popup-element-body.origin-bottom-left.expand-bottom-right .top .left {
+  background: url("../images/top-left.png") no-repeat scroll 0 0;
+}
+
+.popup-style-white .popup-element-body.origin-bottom-right.expand-bottom-right .top .left {
+  background: url("../images/top-left.png") no-repeat scroll 0 0;
+}
+
+.popup-style-white .popup-element-body .top .right {
+  background: url("../images/top-right.png") no-repeat scroll 0 0;
+  height: 55px;
+  padding-right: 55px;
+  width: 55px;
+}
+
+.popup-style-white .popup-element-body .top .center {
+  background: url("../images/top.png") repeat-x scroll center top;
+  height: 55px;
+}
+
+.popup-style-white .popup-element-body .center .left {
+  background: url("../images/left.png") repeat-y scroll left center;
+  width: 55px;
+}
+
+.popup-style-white .popup-element-body .center .right {
+  background: url("../images/right.png") repeat-y scroll right center;
+  width: 55px;
+}
+
+.popup-style-white .popup-element-body .bottom .left {
+  background: url("../images/bottom-left.png") no-repeat scroll 0 0;
+  height: 55px;
+  width: 55px;
+}
+
+.popup-style-white .popup-element-body .bottom .right {
+  background: url("../images/bottom-right.png") no-repeat scroll 0 0;
+  height: 55px;
+  width: 55px;
+}
+
+.popup-style-white .popup-element-body .bottom .center {
+  background: url("../images/bottom.png") repeat-x scroll center bottom;
+}
+
+.popup-style-white .popup-element-body .center .center {
+  background-color: #ffffff;
+}
+
+.popup-element-title {
+  background: url("../images/action.png") no-repeat scroll right top;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0px;
+  position: relative;
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+.popup-style-white .popup-element-body a.popup-close-button {
+  background: url("../images/close.png") no-repeat scroll left top;
+  display: block;
+  height: 7px;
+  position: absolute;
+  right: -11px;
+  top: -6px;
+  width: 10px;
+}
 
 .pager {
   position: relative;
