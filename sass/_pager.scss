@@ -16,14 +16,18 @@
 		font-size:22px;
 	}
 	.pager-previous{
-		position:absolute;
+		/*position:absolute;
 		top:23px;
-		left:41%;
+		left:41%;*/
+		position: relative;
+		top: 2px;
 	}
 	.pager-next{
-		position:absolute;
+		/*position:absolute;
 		top:23px;
-		right:41%;
+		right:41%;*/
+		position: relative;
+		top: 2px;
 	}
 	.pager-item, .pager-first, .pager-previous, .pager-next, .pager-last, .pager-ellipsis, .pager-current {
 		padding-left:10px;

@@ -102,11 +102,70 @@
 			font-size: 20px;
 		}
 	}
-	.popup-element{
+	&_mypopup{
 		position: absolute;
-		z-index: 2;
+		z-index: 2001;
 		top: 0px;
 		right: 0px;
+		.popup-element{
+			display: block;
+		}
+		.class-action {
+		  background: url('../images/action.png') no-repeat scroll right top;
+		  cursor: pointer;
+		  display: block;
+		  padding: 0px;
+		  margin: 0px 0px 3px 0px;
+		  position: relative;
+		  width: 42px;
+		  height: 42px;
+		  overflow: hidden;
+		  text-indent: 100%;
+		  white-space: nowrap;
+		  @include def-opacity(0.8);
+		  @include def-transition(opacity, 0.2s);
+		  &:hover{
+		  	@include def-opacity(1);
+		  }
+		}
+		.class-review {
+		  background: url('../images/review.png') no-repeat scroll right top;
+		  cursor: pointer;
+		  display: block;
+		  padding: 0px;
+		  margin: 0px 0px 3px 0px;
+		  position: relative;
+		  width: 42px;
+		  height: 42px;
+		  overflow: hidden;
+		  text-indent: 100%;
+		  white-space: nowrap;
+		  @include def-opacity(0.8);
+		  @include def-transition(opacity, 0.2s);
+		  &:hover{
+		  	@include def-opacity(1);
+		  }
+		}
+	}
+	&_summer{
+		background: url('../images/summer.png') no-repeat scroll right top;
+	  display: block;
+	  padding: 0px;
+	  margin: 0px 0px 3px 0px;
+	  position: relative;
+	  width: 42px;
+	  height: 42px;
+	  @include def-opacity(0.8);
+	}
+	&_winter{
+		background: url('../images/winter.png') no-repeat scroll right top;
+	  display: block;
+	  padding: 0px;
+	  margin: 0px 0px 3px 0px;
+	  position: relative;
+	  width: 42px;
+	  height: 42px;
+	  @include def-opacity(0.8);
 	}
 }
 
@@ -116,7 +175,13 @@
 }
 .popup-style-white .popup-element-body.origin-bottom-right.expand-bottom-right table.popup-layout {
   left: -20px;
-  top: -91px;
+  top: -62px;
+}
+.popup-style-white .popup-element-body div.inner a{
+	@include link(#88a2af, #88a2af);
+}
+.popup-style-white .popup-element-body div.inner{
+
 }
 #popup-active-overlay{
 	//background: none;
@@ -172,24 +237,13 @@
     background-color: #ffffff;
 }
 
-.popup-element-title {
-  background: url('../images/action.png') no-repeat scroll right top;
-  cursor: pointer;
-  display: inline-block;
-  padding: 0px;
-  position: relative;
-  width: 42px;
-  height: 42px;
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
-}
+
 .popup-style-white .popup-element-body a.popup-close-button {
   background: url('../images/close.png') no-repeat scroll left top;
   display: block;
   height: 7px;
   position: absolute;
-  right: -11px;
-  top: -6px;
+  right: -13px;
+  top: -9px;
   width: 10px;
 }

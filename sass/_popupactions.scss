@@ -1,0 +1,29 @@
+.popupactions{
+	font-family: "bicubikregular";
+  //font-size: 10px;
+  line-height: 1.4;
+  height: 366px;
+  overflow: auto;
+  margin: 0px -16px 0px 0px;
+  padding: 0px 16px 0px 0px;
+  &_title{
+  	font-size: 13px;
+  	margin-bottom: 10px;
+  	font-weight: bold;
+  }
+  &_item{
+  	border-top: 1px solid #53788c!important;
+  	padding: 24px 0px 10px 0px;
+  	&:first-child{
+  		border: none!important;
+  		padding-top: 0px;
+  	}
+  }
+  &_link{
+  	font-size: 10px;
+  	@include link(#88a2af, #88a2af);
+  }
+  &_text{
+  	font-size: 10px;
+  }
+}
