@@ -213,13 +213,31 @@ body.page-special, body.node-type-actions {
   font-size: 10px;
   line-height: 1.4;
 }
+.newcatalog .views-exposed-form {
+  position: relative;
+  padding: 0px 0px 15px 0px;
+}
+.newcatalog .views-exposed-form .ajax-progress-throbber {
+  position: absolute;
+  top: 17px;
+  left: -20px;
+}
+.newcatalog .views-exposed-form .form-submit {
+  margin-top: 12px;
+}
+.newcatalog_descr {
+  padding: 0px 32px 28px 32px;
+}
+.newcatalog_descr p {
+  line-height: 1.5;
+}
 .newcatalog_logo {
   margin: 0px 0px 25px 0px;
 }
 .newcatalog_title {
   text-align: center;
   width: 180px;
-  margin: 0 auto 32px auto;
+  margin: 0 auto 29px auto;
   font-size: 17px;
   font-family: 'bicubikregular';
   font-weight: normal;
@@ -338,7 +356,7 @@ body.page-special, body.node-type-actions {
 }
 .newcatalog_mypopup {
   position: absolute;
-  z-index: 2001;
+  z-index: 10;
   top: 0px;
   right: 0px;
 }
@@ -520,6 +538,10 @@ body.page-special, body.node-type-actions {
   width: 10px;
 }
 
+#popup-active-overlay {
+  z-index: 5;
+}
+
 .pager {
   position: relative;
   padding-top: 30px;
@@ -529,6 +551,7 @@ body.page-special, body.node-type-actions {
   font-size: 13px;
   font-weight: bold;
   color: #4a4a4a;
+  position: relative;
 }
 .pager a {
   color: #a4a4a4;
@@ -567,6 +590,11 @@ body.page-special, body.node-type-actions {
 .pager .pager-item, .pager .pager-first, .pager .pager-previous, .pager .pager-next, .pager .pager-last, .pager .pager-ellipsis, .pager .pager-current {
   padding-left: 10px;
   padding-right: 10px;
+}
+.pager .ajax-progress-throbber {
+  position: absolute;
+  top: -16px;
+  left: 7px;
 }
 
 .popupactions {
@@ -608,6 +636,45 @@ body.page-special, body.node-type-actions {
 }
 .popupactions_text {
   font-size: 10px;
+}
+
+.newbrands {
+  overflow: hidden;
+  padding: 0px 0px 28px 32px;
+}
+.newbrands_wrap {
+  position: relative;
+  width: 150px;
+  height: 40px;
+  float: left;
+  margin: 0px 8px 0px 0px;
+}
+.newbrands_image1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+.newbrands_image2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+.newbrands_wrap:hover .newbrands_image2 {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
 }
 
 /*# sourceMappingURL=all-old-ie.css.map */

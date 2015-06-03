@@ -6,6 +6,7 @@
 		font-size:13px;
 		font-weight:bold;
 		color:#4a4a4a;
+		position: relative;
 	}
 	a{
 		@include link(#a4a4a4, #4a4a4a);
@@ -36,4 +37,9 @@
 	.pager-current{
 		
 	}
+	.ajax-progress-throbber{
+    position: absolute;
+    top: -16px;
+    left: 7px;
+  }
 }	

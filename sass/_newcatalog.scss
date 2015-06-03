@@ -8,13 +8,31 @@
   font-family: "bicubikregular";
   font-size: 10px;
   line-height: 1.4;
+  .views-exposed-form{
+    position: relative;
+    padding: 0px 0px 15px 0px;
+    .ajax-progress-throbber{
+      position: absolute;
+      top: 17px;
+      left: -20px;
+    }
+    .form-submit{
+      margin-top: 12px;
+    }
+  }
+  &_descr{
+    padding: 0px 32px 28px 32px;
+    p{
+      line-height: 1.5;
+    }
+  }
   &_logo{
 		margin: 0px 0px 25px 0px;
   }
 	&_title{
 		text-align: center;
 		width: 180px;
-		margin: 0 auto 32px auto;
+		margin: 0 auto 29px auto;
 		font-size: 17px;
     font-family: 'bicubikregular';
     font-weight: normal;
@@ -104,7 +122,7 @@
 	}
 	&_mypopup{
 		position: absolute;
-		z-index: 2001;
+		z-index: 10;
 		top: 0px;
 		right: 0px;
 		.popup-element{
@@ -246,4 +264,7 @@
   right: -13px;
   top: -9px;
   width: 10px;
+}
+#popup-active-overlay{
+  z-index: 5;
 }
