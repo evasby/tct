@@ -1,0 +1,34 @@
+.newbuttons{
+  min-height: 85px;
+  .cat_button_left{
+    float: none;
+    width: auto;
+  }
+  .cat_button_left2{
+    text-align: center;
+  }
+  .bc_filter_tires_form_inner{
+    //overflow: hidden;
+    width: 800px;
+    margin: 0 auto;
+  }
+  .sbHolder{
+    margin-right: 13px;
+  }
+  .sbSelector{
+    width: 185px;
+  }
+  .sbOptions{
+    z-index: 11;
+    width: 185px;
+    padding-top: 5px;
+  }
+  #bc_filter_tires_results{
+    padding-left: 102px;
+    position: relative;
+    z-index: 11;
+  }
+  .cat_custom_search_form_tires{
+    min-height: auto;
+  }
+}

@@ -8,21 +8,21 @@
     float: left;
     margin: 0px 8px 0px 0px;
   }
-  &_image1{
+  
+  &_image2{
     position: absolute;
     top: 0px;
     left: 0px;
     z-index: 1;
   }
-  &_image2{
+  &_image1{
     position: absolute;
     top: 0px;
     left: 0px;
     z-index: 2;
-    @include def-opacity(0);
     @include def-transition(opacity, 0.2s);
     .newbrands_wrap:hover & {
-      @include def-opacity(1);
+      @include def-opacity(0);
     }
   }
 }

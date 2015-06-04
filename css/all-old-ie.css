@@ -207,7 +207,7 @@ body.page-special, body.node-type-actions {
   overflow: hidden;
   margin: 0px auto;
   max-width: 1000px;
-  padding: 55px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
   background-color: #ffffff;
   font-family: "bicubikregular";
   font-size: 10px;
@@ -226,18 +226,18 @@ body.page-special, body.node-type-actions {
   margin-top: 12px;
 }
 .newcatalog_descr {
-  padding: 0px 32px 28px 32px;
+  padding: 0px 32px 0px 32px;
 }
 .newcatalog_descr p {
   line-height: 1.5;
 }
 .newcatalog_logo {
-  margin: 0px 0px 25px 0px;
+  margin: 0px 0px 25px 20px;
 }
 .newcatalog_title {
   text-align: center;
   width: 180px;
-  margin: 0 auto 29px auto;
+  margin: 0 auto 12px auto;
   font-size: 17px;
   font-family: 'bicubikregular';
   font-weight: normal;
@@ -370,8 +370,9 @@ body.page-special, body.node-type-actions {
   padding: 0px;
   margin: 0px 0px 3px 0px;
   position: relative;
-  width: 42px;
-  height: 42px;
+  width: 25px;
+  height: 25px;
+  background-size: 100%;
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
@@ -398,8 +399,9 @@ body.page-special, body.node-type-actions {
   padding: 0px;
   margin: 0px 0px 3px 0px;
   position: relative;
-  width: 42px;
-  height: 42px;
+  width: 25px;
+  height: 25px;
+  background-size: 100%;
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
@@ -425,8 +427,9 @@ body.page-special, body.node-type-actions {
   padding: 0px;
   margin: 0px 0px 3px 0px;
   position: relative;
-  width: 42px;
-  height: 42px;
+  width: 25px;
+  height: 25px;
+  background-size: 100%;
   -webkit-opacity: 0.8;
   -moz-opacity: 0.8;
   opacity: 0.8;
@@ -438,8 +441,9 @@ body.page-special, body.node-type-actions {
   padding: 0px;
   margin: 0px 0px 3px 0px;
   position: relative;
-  width: 42px;
-  height: 42px;
+  width: 25px;
+  height: 25px;
+  background-size: 100%;
   -webkit-opacity: 0.8;
   -moz-opacity: 0.8;
   opacity: 0.8;
@@ -448,7 +452,7 @@ body.page-special, body.node-type-actions {
 
 .popup-style-white .popup-element-body.origin-bottom-right.expand-bottom-right table.popup-layout {
   left: -20px;
-  top: -62px;
+  top: -45px;
 }
 
 .popup-style-white .popup-element-body div.inner a {
@@ -606,7 +610,7 @@ body.page-special, body.node-type-actions {
   padding: 0px 16px 0px 0px;
 }
 .popupactions_title {
-  font-size: 13px;
+  font-size: 10px;
   margin-bottom: 10px;
   font-weight: bold;
 }
@@ -649,32 +653,62 @@ body.page-special, body.node-type-actions {
   float: left;
   margin: 0px 8px 0px 0px;
 }
-.newbrands_image1 {
+.newbrands_image2 {
   position: absolute;
   top: 0px;
   left: 0px;
   z-index: 1;
 }
-.newbrands_image2 {
+.newbrands_image1 {
   position: absolute;
   top: 0px;
   left: 0px;
   z-index: 2;
-  -webkit-opacity: 0;
-  -moz-opacity: 0;
-  opacity: 0;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   -webkit-transition: opacity 0.2s ease-in-out;
   -moz-transition: opacity 0.2s ease-in-out;
   -o-transition: opacity 0.2s ease-in-out;
   -ms-transition: opacity 0.2s ease-in-out;
   transition: opacity 0.2s ease-in-out;
 }
-.newbrands_wrap:hover .newbrands_image2 {
-  -webkit-opacity: 1;
-  -moz-opacity: 1;
-  opacity: 1;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+.newbrands_wrap:hover .newbrands_image1 {
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+
+.newbuttons {
+  min-height: 85px;
+}
+.newbuttons .cat_button_left {
+  float: none;
+  width: auto;
+}
+.newbuttons .cat_button_left2 {
+  text-align: center;
+}
+.newbuttons .bc_filter_tires_form_inner {
+  width: 800px;
+  margin: 0 auto;
+}
+.newbuttons .sbHolder {
+  margin-right: 13px;
+}
+.newbuttons .sbSelector {
+  width: 185px;
+}
+.newbuttons .sbOptions {
+  z-index: 11;
+  width: 185px;
+  padding-top: 5px;
+}
+.newbuttons #bc_filter_tires_results {
+  padding-left: 102px;
+  position: relative;
+  z-index: 11;
+}
+.newbuttons .cat_custom_search_form_tires {
+  min-height: auto;
 }
 
 /*# sourceMappingURL=all-old-ie.css.map */
