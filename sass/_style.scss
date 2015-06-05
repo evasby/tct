@@ -21,6 +21,9 @@ body.page-special, body.node-type-actions{
   background-size: cover;
   background-image: url("../images/bac_news.jpg");
 }
+.hide{
+  display: none;
+}
 @import "special";
 @import "timeless";
 @import "action";
