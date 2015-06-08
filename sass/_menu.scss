@@ -1,0 +1,35 @@
+.menu{
+	ul{
+		//display: none!important;
+    background: none!important;
+    background-color: #000000!important;
+    box-sizing: content-box!important;
+    height: auto!important;
+    left: 12px!important;
+    opacity: 1!important;
+    padding: 0px!important;
+    position: absolute!important;
+    top: 29px!important;
+    width: auto!important;
+    a{
+    	padding-left: 11px!important;
+    	font-size: 11px!important;
+    }
+	}
+	.nolink {
+    color: #8a8a8a;
+    display: block;
+    font-family: "bicubikregular";
+    font-size: 12px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    width: 110px;
+    &:hover{
+    	color: #ffffff;
+    }
+	}
+	li{
+		position: relative;
+	}
+}

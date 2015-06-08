@@ -554,27 +554,27 @@ body.page-special, body.node-type-actions {
   position: relative;
   padding-top: 30px;
 }
-.pager li {
+.newcatalog .pager li {
   font-family: 'bicubikregular';
   font-size: 13px;
   font-weight: bold;
   color: #4a4a4a;
   position: relative;
 }
-.pager a {
+.newcatalog .pager a {
   color: #a4a4a4;
   text-decoration: none;
 }
-.pager a:visited {
+.newcatalog .pager a:visited {
   color: #a4a4a4;
 }
-.pager a:hover {
+.newcatalog .pager a:hover {
   color: #4a4a4a;
 }
-.pager a:active {
+.newcatalog .pager a:active {
   color: #a4a4a4;
 }
-.pager a:focus {
+.newcatalog .pager a:focus {
   color: #a4a4a4;
 }
 .pager .pager-previous a, .pager .pager-next a {
@@ -588,12 +588,22 @@ body.page-special, body.node-type-actions {
   position: relative;
   top: 2px;
 }
+.content_inner_news .pager .pager-previous {
+  position: absolute;
+  top: 25px;
+  left: 44%;
+}
 .pager .pager-next {
   /*position:absolute;
   top:23px;
   right:41%;*/
   position: relative;
   top: 2px;
+}
+.content_inner_news .pager .pager-next {
+  position: absolute;
+  top: 25px;
+  right: 44%;
 }
 .pager .pager-item, .pager .pager-first, .pager .pager-previous, .pager .pager-next, .pager .pager-last, .pager .pager-ellipsis, .pager .pager-current {
   padding-left: 10px;
@@ -728,6 +738,39 @@ body.page-special, body.node-type-actions {
 }
 .newbuttons .cat_custom_search_form_wheels {
   min-height: auto;
+}
+
+.menu ul {
+  background: none !important;
+  background-color: #000000 !important;
+  box-sizing: content-box !important;
+  height: auto !important;
+  left: 12px !important;
+  opacity: 1 !important;
+  padding: 0px !important;
+  position: absolute !important;
+  top: 29px !important;
+  width: auto !important;
+}
+.menu ul a {
+  padding-left: 11px !important;
+  font-size: 11px !important;
+}
+.menu .nolink {
+  color: #8a8a8a;
+  display: block;
+  font-family: "bicubikregular";
+  font-size: 12px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  width: 110px;
+}
+.menu .nolink:hover {
+  color: #ffffff;
+}
+.menu li {
+  position: relative;
 }
 
 /*# sourceMappingURL=all-old-ie.css.map */

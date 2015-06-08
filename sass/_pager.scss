@@ -2,15 +2,19 @@
 	position:relative;
 	padding-top: 30px;
 	li{
-		font-family:'bicubikregular';
-		font-size:13px;
-		font-weight:bold;
-		color:#4a4a4a;
-		position: relative;
+		.newcatalog & {
+			font-family:'bicubikregular';
+			font-size:13px;
+			font-weight:bold;
+			color:#4a4a4a;
+			position: relative;
+		}
 	}
 	a{
-		@include link(#a4a4a4, #4a4a4a);
-		text-decoration:none;
+		.newcatalog & {
+			@include link(#a4a4a4, #4a4a4a);
+			text-decoration:none;
+		}
 	}
 	.pager-previous a, .pager-next a{
 		font-weight:normal;
@@ -22,6 +26,11 @@
 		left:41%;*/
 		position: relative;
 		top: 2px;
+		.content_inner_news & {
+			position:absolute;
+			top:25px;
+			left:44%;
+		}
 	}
 	.pager-next{
 		/*position:absolute;
@@ -29,6 +38,11 @@
 		right:41%;*/
 		position: relative;
 		top: 2px;
+		.content_inner_news & {
+			position:absolute;
+			top:25px;
+			right:44%;
+		}
 	}
 	.pager-item, .pager-first, .pager-previous, .pager-next, .pager-last, .pager-ellipsis, .pager-current {
 		padding-left:10px;
