@@ -4,8 +4,17 @@
     float: none;
     width: auto;
   }
+  .cat_button_right{
+    float: none;
+    width: auto;
+  }
   .cat_button_left2{
     text-align: center;
+  }
+  .cat_button_right2{
+    text-align: center;
+    @include def-opacity(1);
+    padding: 13px 6px 13px 0;
   }
   .bc_filter_tires_form_inner{
     //overflow: hidden;
@@ -29,6 +38,9 @@
     z-index: 11;
   }
   .cat_custom_search_form_tires{
+    min-height: auto;
+  }
+  .cat_custom_search_form_wheels{
     min-height: auto;
   }
 }

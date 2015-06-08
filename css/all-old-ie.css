@@ -688,8 +688,20 @@ body.page-special, body.node-type-actions {
   float: none;
   width: auto;
 }
+.newbuttons .cat_button_right {
+  float: none;
+  width: auto;
+}
 .newbuttons .cat_button_left2 {
   text-align: center;
+}
+.newbuttons .cat_button_right2 {
+  text-align: center;
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  padding: 13px 6px 13px 0;
 }
 .newbuttons .bc_filter_tires_form_inner {
   width: 800px;
@@ -712,6 +724,9 @@ body.page-special, body.node-type-actions {
   z-index: 11;
 }
 .newbuttons .cat_custom_search_form_tires {
+  min-height: auto;
+}
+.newbuttons .cat_custom_search_form_wheels {
   min-height: auto;
 }
 
