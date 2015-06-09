@@ -240,13 +240,15 @@ body.page-special, body.node-type-actions {
 }
 .newcatalog_title {
   text-align: center;
-  width: 180px;
   margin: 0 auto 12px auto;
+  padding: 0px 0px 5px 0px;
+}
+.newcatalog_title h1 {
+  display: inline;
   font-size: 17px;
   font-family: 'bicubikregular';
   font-weight: normal;
   border-bottom: 1px solid #000000;
-  padding: 0px 0px 5px 0px;
 }
 .newcatalog_list {
   overflow: hidden;
