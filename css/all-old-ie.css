@@ -201,7 +201,7 @@ body.page-special, body.node-type-actions {
 }
 .fronttext_text p {
   color: #ffffff;
-  font-size: 12px;
+  font-size: 11px;
   font-family: 'bicubikregular';
   line-height: 1.4;
 }
@@ -777,6 +777,22 @@ body.page-special, body.node-type-actions {
 
 .leftbrands {
   padding-top: 166px;
+}
+
+@media all and (max-width: 1560px) {
+  .logo2 {
+    width: 550px;
+  }
+}
+@media all and (max-width: 1460px) {
+  .logo2 {
+    width: 500px;
+  }
+}
+@media all and (max-width: 1370px) {
+  .logo2 {
+    width: 400px;
+  }
 }
 
 /*# sourceMappingURL=all-old-ie.css.map */

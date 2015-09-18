@@ -1,0 +1,11 @@
+.logo2{
+  @media all and (max-width: 1560px) {
+    width: 550px;
+  }
+  @media all and (max-width: 1460px) {
+    width: 500px;
+  }
+  @media all and (max-width: 1370px) {
+    width: 400px;
+  }
+}
