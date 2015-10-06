@@ -39,6 +39,7 @@ body.page-special, body.node-type-actions {
 .special_text {
   float: left;
   margin: 20px 0px 0px 20px;
+  width: 300px;
 }
 .special_title {
   font-size: 18px;
@@ -110,6 +111,7 @@ body.page-special, body.node-type-actions {
 .timeless_text {
   float: left;
   margin: 20px 0px 0px 20px;
+  width: 300px;
 }
 .timeless_title {
   font-size: 18px;
