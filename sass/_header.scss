@@ -1,0 +1,20 @@
+.header{
+	&_act{
+		@include respond(1280){
+			top: auto;
+			right: auto;
+			bottom: 0px;
+			left: 100px;
+			height: 14px;
+			
+		}
+		@include respond(960){
+			left: 10px;
+		}
+	}
+}
+#header {
+	@include respond(1280){
+		padding-bottom: 20px;
+	}
+}

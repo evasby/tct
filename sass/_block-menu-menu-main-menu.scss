@@ -1,0 +1,7 @@
+#block-menu-menu-main-menu{
+	ul.menu a{
+		@include respond(1300){
+			width: 100px;
+		}
+	}
+}
